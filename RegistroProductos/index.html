@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset=UTF-8>
+    </head>
+
+    <body>
+        
+        <form>
+            <input type="text" id="userInput" onkeyup="sendRequest()" autocomplete="off"> 
+            <button onclick="registerProduct()">Enviar</button>
+        </form>
+        <span id="result"></span>
+        <div id="ajaxResponse"></div>
+         <script type="text/javascript" src="js/ajax.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      </body>
+</html>
